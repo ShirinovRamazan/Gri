@@ -1,0 +1,81 @@
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body{
+    min-height: 100vh;
+    background-color: wheat;
+   display: grid; 
+   place-items: center;
+
+}
+
+.container{
+
+ background-color: #fff;
+ padding: 70px 60px;
+ display: grid;
+ grid-template-columns: repeat(3, 220px);
+ grid-template-rows: 240px 220px;
+ gap: 15px;
+}
+
+.card{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:nth-child(odd){
+ background-color:  #544BAB;
+ color: #fff;
+    
+}
+
+.card:nth-child(even){
+    background-color:#EAECF9;
+    color: #544BAB;
+}
+
+.month {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 5px
+}
+
+.date{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+ 
+    
+}
+
+.title{
+   font-size: 20px;
+   font-weight: 700;
+   margin-bottom: 33px;
+}
+
+.info{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 10px;
+}   
+
+
+.button{
+    width: 689px;
+    height: 108px;
+    background-color: #37335D;
+    color: white;
+    cursor: pointer;
+}
+
